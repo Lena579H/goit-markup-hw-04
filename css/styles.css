@@ -444,6 +444,10 @@ address {
   align-items: left;
   padding: 100px 0;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
 
 .logo-footer {
   display: inline-block;
@@ -491,7 +495,7 @@ address {
 .footer-social-list {
   display: flex;
   gap: 16px;
-  margin-left: 0;
+  align-items: center;
 }
 
 .footer-social-page {
